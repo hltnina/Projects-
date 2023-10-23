@@ -1,4 +1,4 @@
-overlay-xy(square(71, "solid", "fire-brick"),
+  overlay-xy(square(71, "solid", "fire-brick"),
   0, 0,
   overlay-xy(square(71, "solid", "fire-brick"),
     0, -130,
@@ -10,5 +10,5 @@ overlay-xy(square(71, "solid", "fire-brick"),
           -88, -0,
           overlay-xy(rectangle(290, 35, "solid", "midnight-blue"),
             -0, -83,
-            rectangle(290,200, "solid", "white")))))))
-            
+            rectangle(290,200, "solid", "white")))))))   
+                  
