@@ -1,0 +1,93 @@
+include color 
+
+fun Nordiske-flagger(land):
+  if (land == "Norge"):
+    frame(
+      overlay-xy(square(60, "solid", color(186, 12, 47, 1)), 
+        0, 0,
+        overlay-xy(square(60, "solid", color(186, 12, 47, 1)), 
+          0, -100,
+          overlay-xy(rectangle(120, 60, "solid", color(186, 12, 47, 1)), 
+            -100, 0,
+            overlay-xy(rectangle(120, 60, "solid", color(186, 12, 47, 1)), 
+              -100, -100,
+              overlay-xy(rectangle(20, 160, "solid", color(0, 32, 91, 1)), 
+                -69.6, -0,
+                overlay-xy(rectangle(220, 20, "solid", color(0, 32, 91, 1)), 
+                  0, -70,
+                  overlay-xy(rectangle(40, 160, "solid", "white"),
+                    -60, -0,
+                    overlay-xy(rectangle(220, 40, "solid", "white"),
+                      0, -60,
+                      rectangle(220,160, "solid", "white"))))))))))
+    
+    
+  else if (land == "Danmark"): 
+    frame(
+      overlay-xy(square(120, "solid", color(218,41,28, 1)),
+        0, 0,
+        overlay-xy(square(120, "solid", color(218,41,28, 1)),
+          0, -160,
+          overlay-xy(rectangle(210, 120, "solid", color(218,41,28, 1)),
+            -170, 0,
+            overlay-xy(rectangle(210, 120, "solid", color(218,41,28, 1)),
+              -170, -160,
+              rectangle(379,280, "solid", "white"))))))
+    
+
+
+  else if (land == "Finland"):
+    frame(
+      overlay-xy(rectangle(50, 40, "solid", "white"),
+        0, 0,
+        overlay-xy(rectangle(50, 40, "solid", "white"),
+          0, -70,
+          overlay-xy(rectangle(100, 40, "solid", "white"),
+            -80, 0,
+            overlay-xy(rectangle(100, 40, "solid", "white"),
+              -80, -69,
+              rectangle(180, 110, "solid", color(0,47,108, 1)))))))
+
+
+
+  else if (land == "Sverige"):  
+    frame(
+      overlay-xy(rectangle(50, 40, "solid", color(0,47,108, 1)), 
+        0, 0,
+        overlay-xy(rectangle(50, 40, "solid", color(0,47,108, 1)),
+          0, -60, 
+          overlay-xy(rectangle(90, 40, "solid", color(0,47,108, 1)),
+            -70, 0,
+            overlay-xy(rectangle(90, 40, "solid", color(0,47,108, 1)),
+              -70, -60,
+              rectangle(160,100, "solid", color(255, 209, 0, 1)))))))
+    
+
+
+  else if (land == "Island"): 
+    frame(
+      overlay-xy(square(70, "solid", color(0,48,135, 1)), 
+        0, 0,
+        overlay-xy(square(70, "solid", color(0,48,135, 1)),
+          0, -110, 
+          overlay-xy(rectangle(140, 70, "solid", color(0,48,135, 1)),
+            -110, 0,
+            overlay-xy(rectangle(140, 70, "solid", color(0,48,135, 1)),
+              -110, -110,
+              overlay-xy(rectangle(20, 180, "solid", color(210,38,48, 1)),
+                -79.9, -0,
+                overlay-xy(rectangle(250, 20, "solid", color(210,38,48, 1)),
+                  -0, -80,
+                  rectangle(250, 180, "solid", "white"))))))))
+  end 
+end 
+
+
+Nordiske-flagger("Norge")
+Nordiske-flagger("Danmark")
+Nordiske-flagger("Finland")
+Nordiske-flagger("Sverige")
+Nordiske-flagger("Island")
+
+
+
