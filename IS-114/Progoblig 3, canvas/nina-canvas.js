@@ -1,4 +1,4 @@
-const canvas = document.getElementById("canvas");
+const canvas = document.getElementById("house-Canvas");
 const ctx = canvas.getContext("2d");
 
 // wall
