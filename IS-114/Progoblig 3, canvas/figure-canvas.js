@@ -1,25 +1,25 @@
 const canvas = document.getElementById("house-Canvas");
 const ctx = canvas.getContext("2d");
 
-// wall
+// The walls
 ctx.fillStyle = "#89CFF0";
 ctx.fillRect(200, 150, 160, 200);
 
 
-// door
+// The door
 ctx.fillStyle = "#EADDCA";
 ctx.fillRect(235, 250, 90, 100);
 ctx.fillStyle = "#FFFFFF";
 ctx.fillRect(277, 250, 5, 100);
 
 
-// windows
+// The windows
 ctx.fillStyle = "#FFFFFF";
 ctx.fillRect(210, 180, 50, 50);
 ctx.fillRect(300, 180, 50, 50);
 
 
-// roof
+// The roof
 ctx.moveTo(200, 150);
 ctx.lineTo(280, 70);
 ctx.lineTo(360, 150);
